@@ -77,6 +77,16 @@ img {
 }
 
 
+ /*  The following is for centering portrait photos */ 
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
 
  /*  The following is for mouse hover over images */ 
 
