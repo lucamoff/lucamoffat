@@ -36,6 +36,10 @@ nav {
     margin-top: 15px;
 }
 
+.container_row{
+  display: flex;
+}
+
 /* about.html */
 .border-about {
     margin-top: 1%;
@@ -92,6 +96,7 @@ img {
 
 /* relevant styles */
 
+
 .img__wrap {
   position: sticky;
   height: auto;
@@ -110,12 +115,21 @@ img {
   visibility: hidden;
   opacity: 0;
   text-align: center;
+  margin-left: 22%;
+  display: table-column;
+  flex-direction: column;
+  height: 93%;
+  width: 100%;
+  padding: -50%;
+  
+
 
   /* transition effect. not necessary */
   transition: opacity .5s, visibility .5s;
 }
 
 .img__wrap:hover .img__description {
+  
   visibility: visible;
   opacity: 0.7;
 }
